@@ -13,7 +13,7 @@
 
 그래서 XML에는 4개의 테이블이 있습니다. 
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled.png)
+![Untitled](Readme/Untitled.png)
 
 XML은 data_DTDver.xml, data_XSDver.xml 두가지가 있습니다. 이는 각각 DTD, XSD로 구조를 선언한 XML입니다. 
 
@@ -21,7 +21,7 @@ XML은 data_DTDver.xml, data_XSDver.xml 두가지가 있습니다. 이는 각각
 
 XML의 구조에 맞게 설계를 하였습니다.
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled%201.png)
+![Untitled](Readme/Untitled%201.png)
 
 ## XSD
 
@@ -33,7 +33,7 @@ user_table.xsd, guide_table.xsd은 include 방식
 
 Travel_product_info.xsd, place_info.xsd는 import 방식을 사용합니다.
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled%202.png)
+![Untitled](Readme/Untitled%202.png)
 
 main.xsd 예시
 
@@ -45,7 +45,7 @@ main.xsd 예시
 
 1) 메인보드
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled%203.png)
+![Untitled](Readme/Untitled%203.png)
 
 - Load: XML 파일을 Load 하는 버튼입니다.
 - Make: 새로운 XML을 만드는 버튼입니다.
@@ -59,7 +59,7 @@ main.xsd 예시
 
 2) 서브 보드
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled%204.png)
+![Untitled](Readme/Untitled%204.png)
 
 - 상단 콤보 박스: element를 선택하는 부분입니다.
 - Submit: 선택 완료시 submit 버튼을 누릅니다.
@@ -75,7 +75,7 @@ main.xsd 예시
 
 ### 내부 파일 구조
 
-![Untitled](XML%20%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20SW%20e88a487d387a4f0f85ac357b6e6c872b/Untitled%205.png)
+![Untitled](Readme/Untitled%205.png)
 
 - data_window 파일은 insert/update/delete 기능을 수행하는 창이 있습니다.
 - DOMNodeFind 파일은 find에 사용되는 클래스가 있는 파일입니다.
