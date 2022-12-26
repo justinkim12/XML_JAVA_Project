@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.man.org"
+	xmlns="http://www.man.org"
+	elementFormDefault="qualified">
+
+    <!-- <xsd:element name="travel">
+        <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="guide_table"/>
+        </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>	 -->
+
+    <xsd:element name="guide_table">
+		<xsd:complexType>
+			<xsd:sequence>
+					<xsd:element ref="guide" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+    
+    <xsd:element name="guide">
+        <xsd:complexType>
+        <xsd:sequence maxOccurs="unbounded">
+            <xsd:element name="guide_name" type="xsd:string"/>
+            <xsd:element name="followers" type="xsd:integer" minOccurs="0"/>
+            <xsd:element ref="travel_product_list"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:integer" use="required"/>
+        </xsd:complexType>
+        
+    </xsd:element>
+
+	<xsd:element name="travel_product_list">
+		<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="product_id" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		</xsd:complexType>
+  	</xsd:element>
+
+</xsd:schema>

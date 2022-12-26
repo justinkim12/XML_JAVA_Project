@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.info_.org"
+	xmlns="http://www.info_.org"
+	xmlns:man="http://www.man.org"
+	elementFormDefault="qualified">
+
+    <xsd:element name="place_info">
+			<xsd:complexType>
+				<xsd:sequence>
+						<xsd:element ref="place" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:complexType>
+	</xsd:element>
+    <xsd:element name="place">
+		<xsd:complexType>
+				<xsd:sequence  maxOccurs="unbounded">
+					<xsd:element name="place_name" type="xsd:string"/>
+					<xsd:element name="hashtag_list"/>
+				</xsd:sequence>
+				<xsd:attribute name="id" type="xsd:integer" use="required"/>
+				<xsd:attribute name="city" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+    <xsd:element name="hashtag_list">
+		<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="hashtag" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		</xsd:complexType>
+  	</xsd:element>
+</xsd:schema> 

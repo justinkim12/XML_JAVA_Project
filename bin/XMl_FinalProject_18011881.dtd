@@ -1,0 +1,32 @@
+<!ELEMENT travel (user_table,guide_table,travel_product_info,place_info) >
+<!ELEMENT user_table (user*) >
+<!ELEMENT user (user_name,age?,favorite_city,following_guide,Bookmark) >
+<!ATTLIST user id CDATA #REQUIRED>
+<!ATTLIST user sex (male | female) "male">
+<!ELEMENT user_name (#PCDATA) >
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT favorite_city (city+) >
+<!ELEMENT city (#PCDATA) >
+<!ELEMENT following_guide (guide_id*) >
+<!ELEMENT Bookmark (product_id*) >
+<!ELEMENT product_id (#PCDATA) >
+<!ELEMENT guide_id (#PCDATA) >
+<!ELEMENT guide_table (guide*) >
+<!ELEMENT guide (guide_name,age?,followers,travel_product_list) >
+<!ATTLIST guide id CDATA #REQUIRED>
+<!ELEMENT guide_name (#PCDATA) >
+<!ELEMENT travel_product_list (product_id+) >
+<!ELEMENT followers (#PCDATA) >
+<!ELEMENT travel_product_info (travel_product*) >
+<!ELEMENT travel_product (city,guide_id,cost,course) >
+<!ATTLIST travel_product id CDATA #REQUIRED>
+<!ELEMENT course (place_name+) >
+<!ATTLIST course theme CDATA #IMPLIED>
+<!ELEMENT place_name (#PCDATA) >
+<!ELEMENT cost (#PCDATA) >
+<!ELEMENT place_info (place*) >
+<!ELEMENT place (place_name,hashtag_list) >
+<!ATTLIST place city CDATA #REQUIRED>
+<!ELEMENT hashtag_list (hashtag+) >
+<!ELEMENT hashtag (#PCDATA) >
+ 

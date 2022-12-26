@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.man.org"
+	xmlns="http://www.man.org"
+	xmlns:info="http://www.info.org"
+    xmlns:info_="http://www.info_.org">
+    <xsd:include schemaLocation="user_table.xsd"/>
+    <xsd:include schemaLocation="guide_table.xsd"/>
+    <xsd:import namespace="http://www.info.org" schemaLocation="travel_product_info.xsd"/> 
+    <xsd:import namespace="http://www.info_.org" schemaLocation="place_info.xsd"/> 
+    
+    <xsd:element name="travel">
+                <xsd:complexType>
+                    <xsd:sequence>
+                            <xsd:element ref="user_table"/>
+                            <xsd:element ref="guide_table"/>
+                            <xsd:element ref="info:travel_product_info"/>
+                            <xsd:element ref="info_:place_info"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+        
+    </xsd:element>
+</xsd:schema>

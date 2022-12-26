@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="main.xsd" 
+    xmlns:info="http://www.info.org"
+    xmlns:info_="http://www.info_.org"
+    xmlns="http://www.man.org">
+    <user_table>
+        <user id="1">
+            <user_name>Tom</user_name>
+            <age>21</age>         
+            <favorite_city>
+                <city>Busan</city>
+            </favorite_city>
+            <following_guide>
+                <guide_id>1</guide_id>
+                <guide_id>2</guide_id>
+            </following_guide>
+            <Bookmark>
+                <product_id>1</product_id>
+            </Bookmark>
+        </user>
+        <user id="2">
+            <user_name>Ale</user_name>
+            <age>22</age>        
+            <favorite_city>
+                <city>Seoul</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>2</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="3">
+            <user_name>Wan</user_name>
+
+            <age>32</age>
+            
+            <favorite_city>
+                <city>Incheon</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>3</guide_id>
+                <guide_id>9</guide_id>
+            </following_guide>
+
+            <Bookmark>
+                <product_id>9</product_id>
+            </Bookmark>
+        </user>
+        
+        <user id="4">
+            <user_name>Ron</user_name>
+
+            <age>20</age>
+            
+            <favorite_city>
+                <city>Gangneung</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>4</guide_id>
+                <guide_id>10</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="5">
+            <user_name>Ian</user_name>
+            
+            <favorite_city>
+                <city>Jeju</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>5</guide_id>
+            </following_guide>
+
+            <Bookmark>
+                <product_id>5</product_id>
+            </Bookmark>
+        </user>
+                
+        <user id="6">
+            <user_name>Bob</user_name>
+            
+            <favorite_city>
+                <city>Busan</city>
+                <city>Yeosu</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>6</guide_id>
+            </following_guide>
+
+            <Bookmark>
+                <product_id></product_id>
+            </Bookmark>
+        </user>
+        
+        <user id="7">
+            <user_name>Chang</user_name>
+
+            <age>25</age>
+            
+            <favorite_city>
+                <city>Gongju</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>7</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="8" sex="female"> 
+            <user_name>Amy</user_name>
+
+            <age>20</age>
+            
+            <favorite_city>
+                <city>Seoul</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>2</guide_id>
+                <guide_id>12</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="9">
+            <user_name>Paul</user_name>
+            
+            <favorite_city>
+                <city>Busan</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>1</guide_id>
+                <guide_id>11</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+                
+        <user id="10">
+            <user_name>Naem</user_name>
+
+            <age>31</age>
+            
+            <favorite_city>
+                <city>Jeju</city>
+                <city>Jeonju</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>5</guide_id>
+                <guide_id>8</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+                
+        <user id="11">
+            <user_name>Tim</user_name>
+
+            <age>30</age>
+            
+            <favorite_city>
+                <city>Jeju</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>5</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="12">
+            <user_name>Kane</user_name>
+
+            <age>19</age>
+            
+            <favorite_city>
+                <city>Busan</city>
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>1</guide_id>
+            </following_guide>
+
+            <Bookmark>
+                <product_id>11</product_id>
+            </Bookmark>
+        </user>
+        <user id="13">
+            <user_name>Roo</user_name>
+            
+            <favorite_city>
+                <city>Seoul</city>
+
+            </favorite_city>
+
+            <following_guide>
+                <guide_id>2</guide_id>
+            </following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="14" sex='female'>
+            <user_name>Susan</user_name>
+
+            <age>17</age>
+            
+            <favorite_city>
+                <city>Yeosu</city>
+
+            </favorite_city>
+
+            <following_guide></following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+        
+        <user id="15">
+            <user_name>Ryan</user_name>
+
+            <age>22</age>
+            
+            <favorite_city>
+                <city>Gongju</city>
+
+            </favorite_city>
+
+            <following_guide></following_guide>
+
+            <Bookmark></Bookmark>
+        </user>
+    </user_table>    
+<!-- user_table -->
+<!-- user_table --><!-- user_table -->
+
+<!-- guide_table --><!-- guide_table -->
+
+    <guide_table>
+
+        <guide id="1">
+            <guide_name>Kim</guide_name>
+                
+            <followers>3</followers>
+
+            <travel_product_list>
+                <product_id>1</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="2">
+            <guide_name>Lee</guide_name>
+                     
+            <followers>4</followers>
+
+            <travel_product_list>
+                <product_id>2</product_id>
+                <product_id>13</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="3">
+            <guide_name>Park</guide_name>
+            
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>3</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="4">
+            <guide_name>Choi</guide_name>
+
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>4</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="5">
+            <guide_name>Moon</guide_name>
+                        
+            <followers>3</followers>
+
+            <travel_product_list>
+                <product_id>5</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="6">
+            <guide_name>Jung</guide_name>
+                        
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>6</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="7">
+            <guide_name>Kang</guide_name>
+            
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>7</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="8">
+            <guide_name>Ryu</guide_name>
+            
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>8</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="9">
+            <guide_name>Han</guide_name>
+            
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>9</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="10">
+            <guide_name>Nam</guide_name>
+                        
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>10</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="11">
+            <guide_name>Joo</guide_name>
+                  
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>11</product_id>
+            </travel_product_list>
+        </guide>
+
+        <guide id="12">
+            <guide_name>Yang</guide_name>
+                      
+            <followers>1</followers>
+
+            <travel_product_list>
+                <product_id>12</product_id>
+            </travel_product_list>
+        </guide>
+
+    </guide_table>
+<!-- guide_table -->
+<!-- guide_table --><!-- guide_table -->
+
+
+<!-- <travel_product_info> --><!-- <travel_product_info> -->
+    <info:travel_product_info>
+        <info:travel_product id="1">
+            <info:city>Busan</info:city>
+
+            <info:guide_id>1</info:guide_id>
+
+            <info:cost>14</info:cost>
+
+            <info:course theme="Healing">
+                <info:place_name>HaeWoonDae</info:place_name>
+                <info:place_name>GwangAnLee</info:place_name>
+                <info:place_name>JaGalChi</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="2">
+            <info:city>Seoul</info:city>
+
+            <info:guide_id>2</info:guide_id>
+
+            <info:cost>8</info:cost>
+
+            <info:course>
+                <info:place_name>GyeongBokGung</info:place_name>
+                <info:place_name>HanGang</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="3">
+            <info:city>Incheon</info:city>
+
+            <info:guide_id>3</info:guide_id>
+
+            <info:cost>11</info:cost>
+
+            <info:course>
+                <info:place_name>WolMiDo</info:place_name>
+                <info:place_name>China Town</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="4">
+            <info:city>Gangneung</info:city>
+
+            <info:guide_id>4</info:guide_id>
+
+            <info:cost>11</info:cost>
+
+            <info:course>
+                <info:place_name>OJukHun</info:place_name>
+                <info:place_name>GyeongPoDae</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="5">
+            <info:city>Jeju</info:city>
+
+            <info:guide_id>5</info:guide_id>
+
+            <info:cost>20</info:cost>
+
+            <info:course theme="walk">
+                <info:place_name>HanLaSan</info:place_name>
+                <info:place_name>OlehGil</info:place_name>
+                <info:place_name>SubJiKoJi</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="6">
+            <info:city>Yeosu</info:city>
+
+            <info:guide_id>6</info:guide_id>
+
+            <info:cost>15</info:cost>
+
+            <info:course theme="ocean">
+                <info:place_name>JangDo</info:place_name>
+                <info:place_name>ODOngDo</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="7">
+            <info:city>Gongju</info:city>
+
+            <info:guide_id>7</info:guide_id>
+
+            <info:cost>8</info:cost>
+
+            <info:course theme="history">
+                <info:place_name>MuRyeongWangNeng</info:place_name>
+                <info:place_name>SukJangLee</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="8">
+            <info:city>Jeonju</info:city>
+
+            <info:guide_id>8</info:guide_id>
+
+            <info:cost>13</info:cost>
+
+            <info:course>
+                <info:place_name>HanOk Town</info:place_name>
+                <info:place_name>JeonDongSungDang</info:place_name>
+                <info:place_name>History Museum</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="9">
+            <info:city>Incheon</info:city>
+
+            <info:guide_id>9</info:guide_id>
+
+            <info:cost>7</info:cost>
+
+            <info:course theme="Healing">
+                <info:place_name>EulWangLee</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="10">
+            <info:city>Gangneung</info:city>
+
+            <info:guide_id>10</info:guide_id>
+
+            <info:cost>10</info:cost>
+
+            <info:course>
+                <info:place_name>JungDongJin</info:place_name>
+                <info:place_name>GyeongPoDae</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="11">
+            <info:city>Busan</info:city>
+
+            <info:guide_id>11</info:guide_id>
+
+            <info:cost>12</info:cost>
+
+            <info:course>
+                <info:place_name>SaJik Baseball Park</info:place_name>
+                <info:place_name>JaGalChi</info:place_name>
+                <info:place_name>DaDePo</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="12">
+            <info:city>Seoul</info:city>
+
+            <info:guide_id>12</info:guide_id>
+
+            <info:cost>15</info:cost>
+
+            <info:course>
+                <info:place_name>Olympic Park</info:place_name>
+                <info:place_name>GyeongBokGung</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+        <info:travel_product id="13">
+            <info:city>Seoul</info:city>
+
+            <info:guide_id>2</info:guide_id>
+
+            <info:cost>9</info:cost>
+
+            <info:course>
+                <info:place_name>GyeongBokGung</info:place_name>
+                <info:place_name>Lotte Tower</info:place_name>
+            </info:course>
+        </info:travel_product>
+
+    </info:travel_product_info>
+
+<!-- <travel_product_info> -->
+<!-- <travel_product_info> --><!-- <travel_product_info> -->
+
+<!-- <place_info> --><!-- <place_info> -->
+    <info_:place_info>
+        <info_:place id="1" city="Busan">
+            <info_:place_name>HaeWoonDae</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="2" city="Busan">
+            <info_:place_name>DaDePo</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="3" city="Busan">
+            <info_:place_name>GwangAnLee</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="4" city="Busan">
+            <info_:place_name>JaGalChi</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>traditional market</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="5" city="Busan">
+            <info_:place_name>SaJik Baseball Park</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>sports</info_:hashtag>
+                <info_:hashtag>baseball</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Busan"> -->
+        
+        <info_:place id="6" city="Seoul">
+            <info_:place_name>GyeongBokGung</info_:place_name>
+
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="7" city="Seoul">
+            <info_:place_name>Olympic Park</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>sports</info_:hashtag>
+                <info_:hashtag>walk</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="8" city="Seoul">
+            <info_:place_name>Lotte Tower</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>shopping</info_:hashtag>
+                <info_:hashtag>View</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="9" city="Seoul">
+            <info_:place_name>HanGang</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>river</info_:hashtag>
+                <info_:hashtag>walk</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="10" city="Seoul">
+            <info_:place_name>GangNam</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>shopping</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Seoul"> -->
+
+        <info_:place id="11" city="Incheon">
+            <info_:place_name>WolMiDo</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>amuesement park</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="12" city="Incheon">
+            <info_:place_name>EulWangLee</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>shell fish</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="13" city="Incheon">
+            <info_:place_name>China Town</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>china</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Incheon"> -->
+
+        <info_:place id="14" city="Jeju">
+            <info_:place_name>HanLaSan</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>mountain</info_:hashtag>
+                <info_:hashtag>walk</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="15" city="Jeju">
+            <info_:place_name>OlehGil</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>walk</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="16" city="Jeju">
+            <info_:place_name>SubJiKoJi</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>view</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Jeju"> -->
+
+        <info_:place id="17" city="Gangneung">
+            <info_:place_name>GyeongPoDae</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>view</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="18" city="Gangneung">
+            <info_:place_name>JungDongJin</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>view</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="19" city="Gangneung">
+            <info_:place_name>OJukHun</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Gangneung"> -->
+
+        <info_:place id="20" city="Yeosu">
+            <info_:place_name>JangDo</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>island</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="21" city="Yeosu">
+            <info_:place_name>ODongDo</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>ocean</info_:hashtag>
+                <info_:hashtag>island</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Yeosu"> -->
+
+        <info_:place id="22" city="Gongju">
+            <info_:place_name>MuRyeongWangNeng</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="23" city="Gongju">
+            <info_:place_name>SukJangLee</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Gongju"> -->
+
+
+        <info_:place id="24" city="Jeonju">
+            <info_:place_name>HanOk Town</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="25" city="Jeonju">
+            <info_:place_name>JeonDongSungDang</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>church</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+
+        <info_:place id="26" city="Jeonju">
+            <info_:place_name>Hisotry Museum</info_:place_name>
+            
+            <info_:hashtag_list>
+                <info_:hashtag>historic sites</info_:hashtag>
+            </info_:hashtag_list>
+        </info_:place>
+        <!-- <place city="Jeonju"> -->
+    </info_:place_info>
+
+
+<!-- <place_info> -->
+<!-- <place_info> --><!-- <place_info> -->
+
+</travel>
